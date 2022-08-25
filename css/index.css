@@ -207,4 +207,197 @@ nav{
     margin-right: 30px;
     border-radius: 30px;
 }
+.ham-img{
+    display: none;
+}
 
+
+/* ******************************************
+******************************************
+******* Mobile Responsive *****
+******************************************
+****************************************** */
+
+@media screen and (max-width:320px){
+
+    /* Nav section */
+    .nav-items{
+        visibility: hidden;
+    }
+    .nav-images{
+        visibility: hidden;
+    }
+    .ham-img{
+        display: inline-block;
+        margin-left: 800px;
+        margin-top: 70px;
+    }
+    .ham-menu{
+        width: 80px;
+    }
+    .logo{
+        height: 100px;
+    }
+
+    /* body part */
+    /* image part */
+    .right-section{
+        position: relative;
+        right: 1080px;
+        top: 60px;
+    }
+    .headPhone-image{
+        width: 800px;
+    }
+   
+    .discount{
+       margin-right: 320px;
+        margin-top: 200px;
+        width: 200px;
+    }
+    .discount-content{
+        position: relative;
+        top: 580px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .dots{
+        margin-left: 300px;
+    }
+    /* add to cart and see catalog buttons */
+    .shopiing-btn{
+        display: none;
+    }
+    #cat-btn{
+       font-size: 30px;
+       padding: 12px 40px;
+       position: relative;
+       left: 700px;
+       bottom: 1110px;
+    }
+    .cart-btn{
+        font-size: 30px;
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    /* description */
+    .left-section{
+        margin-top: 1200px;
+    }
+
+    .circles-img{
+        margin-top:1200px;
+        margin-left: 280px;
+    }
+    .sub-title{
+        margin-left: 100px;
+        font-size: 60px;
+    }
+    #heading-main{
+        font-size: 100px;
+        margin-left: 100px;
+    }
+    .plus{
+        height: 20px;
+        width: 200px;
+    }
+    .sub-headlines{
+        display: flex;
+        margin-left: 140px;
+        margin-top: 100px;
+    }
+    .sub-headlines h5{
+        display: flex;
+    }
+    .sub-headline{
+        margin-right: 200px;
+        font-size: 40px;
+    }
+    .text{
+        font-size: 40px;
+        margin-left: 140px;
+        margin-top: 160px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:760px){
+    /* Nav section */
+    .nav-items{
+       visibility: hidden;
+   }
+   .nav-images{
+       visibility: hidden;
+   }
+   .ham-img{
+       display: inline-block;
+       margin-left: 700px;
+       margin-top: 60px;
+   }
+   .ham-menu{
+       width: 40px;
+   }
+
+   /* body part */
+   /* image part */
+   
+   .discount-content{
+       position: absolute;
+       left: 580px;
+       top: 347px;
+   }
+  .discount{
+   width: 120px;
+   position: relative;
+   left:140px;
+   top: 200px;
+  }
+.headPhone-image{
+   width: 350px;
+   margin-left: 200px;
+   margin-top: -80px;
+}
+.dot{
+   width: 18px;
+   height: 18px;
+   margin-right: 30px;
+   border-radius: 30px;
+}
+.dots{
+   margin-left: 280px;
+}
+#cat-btn{
+  position: absolute;
+  top: 580px;
+  left: 520px;
+}
+.cart-btn{
+   margin-left: 350px;
+}
+.shopiing-btn{
+  display: none;
+}
+.left-section{
+   margin-top: 100px;
+}
+.circles-img{
+   margin-top: 20px;
+}
+.sub-title{
+   margin-bottom: 40px;
+}
+#heading-main{
+   margin-bottom: 50px;
+}
+
+.sub-headlines{
+   margin-bottom: -30px;
+}
+.text{
+   font-size: 30px;
+   text-decoration: none;
+   padding: 100px 0px;
+}
+.right-section{
+   height: 500px;
+}
+} 
